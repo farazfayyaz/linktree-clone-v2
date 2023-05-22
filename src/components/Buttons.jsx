@@ -11,7 +11,7 @@ export const Buttons = (props) => {
         <a className='Button' href={props.link}>
 
             <p className='Button-name'>{props.name}</p>
-            <img className='Button-icon' src={props.icon} alt={props.name} />
+            <img className='Button-icon' src={props.icon} />
 
         </a>
     </div>
